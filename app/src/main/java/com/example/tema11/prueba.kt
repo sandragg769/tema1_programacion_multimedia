@@ -82,3 +82,5 @@ fun max(a: Int, b: Int): Int = if (a > b) a else b
 //SI NO SE PONE ASÍ EN EL EXAMEN QUITA PUNTOS
 
 //LET
+
+//funciona
