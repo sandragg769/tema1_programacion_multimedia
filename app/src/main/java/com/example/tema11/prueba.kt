@@ -57,6 +57,8 @@ fun imprimirNombrer2(nombre: String) = "Hola $nombre"
 //si igualo  (=) ya no hace falta return!!
 fun max(a: Int, b: Int): Int = if (a > b) a else b
 
+
+
 //SWITCH
 //en vez de switch se usa when
 //val color = Color.AZUL
@@ -82,5 +84,3 @@ fun max(a: Int, b: Int): Int = if (a > b) a else b
 //SI NO SE PONE ASÍ EN EL EXAMEN QUITA PUNTOS
 
 //LET
-
-//funciona
