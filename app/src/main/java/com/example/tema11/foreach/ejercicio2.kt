@@ -1,4 +1,4 @@
-package com.example.tema11
+package com.example.tema11.foreach
 
 fun main() {
     var listaNumeros = listOf(1, 5, 8, 3, 10)
