@@ -36,8 +36,37 @@ fun main() {
     if ('r' in letras) {
         println("R esta dentro")
     }
-
     //tambien fechas
+
+
+    //FUNCIONES LAMBDA
+    val listaNumeros = listOf(1, 2, 3)
+    //FOREACH
+    //forEach para recorrer la lista
+    //listaNumeros.forEach { numero:Int -> println(numero) }
+    //quitar tipo de dato
+    //listaNumeros.forEach { numero -> println(numero) }
+    //no poner "numero" poner it ya que no estamos declarando numero
+    listaNumeros.forEach { println(it) }
+    //siempre va recogida entre llaves los lambda
+    //OTRA FORMAS DE PONER MÁS FACIL, DICHO POR ADRIEL
+    //listaNumeros.forEach (::println)
+
+    //FILTEr
+    //listaNumeros.filter { numero -> numero %2==0}
+    listaNumeros.filter { it % 2 == 0 }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -56,7 +85,6 @@ fun imprimirNombrer2(nombre: String) = "Hola $nombre"
 //se puede igualar a una expresion simplemente
 //si igualo  (=) ya no hace falta return!!
 fun max(a: Int, b: Int): Int = if (a > b) a else b
-
 
 
 //SWITCH
