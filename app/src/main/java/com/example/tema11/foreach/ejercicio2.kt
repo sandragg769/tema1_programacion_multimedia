@@ -1,5 +1,7 @@
 package com.example.tema11.foreach
 
+//Define una función contarMayoresQue, que reciba una lista de enteros y un número límite, y
+// devuelva cuántos de esos números son mayores que el límite.
 fun main() {
     var listaNumeros = listOf(1, 5, 8, 3, 10)
     val cantidad = contarMayoresQue(listaNumeros, 5)

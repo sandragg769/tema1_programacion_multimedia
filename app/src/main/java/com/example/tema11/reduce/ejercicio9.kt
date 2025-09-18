@@ -1,5 +1,6 @@
 package com.example.tema11.reduce
 
+//Define una función sumaPositivos, que reciba una lista de enteros y devuelva la suma de los números positivos de dicha lista.
 fun main() {
     val lista = listOf(1, 2, 3, 4)
     print(sumaPositivos(lista))

@@ -1,5 +1,6 @@
 package com.example.tema11.filter
 
+//Define una función filtrarPalabrasLargas, que filtre palabras con más de 4 letras.
 fun main() {
     var lista = listOf("holaa", "hola", "holaaa")
     //pilla q es lista
