@@ -1,4 +1,4 @@
-package com.example.tema11
+package com.example.tema11.map
 
 fun main() {
     val precios = listOf(23.19, 52.4, 12.0)

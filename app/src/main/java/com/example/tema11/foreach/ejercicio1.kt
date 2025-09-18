@@ -1,4 +1,4 @@
-package com.example.tema11
+package com.example.tema11.foreach
 
 fun main() {
     //hacer lista, con el listOf pilla que es lista

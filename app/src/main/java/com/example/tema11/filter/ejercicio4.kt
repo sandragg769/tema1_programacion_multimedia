@@ -1,4 +1,4 @@
-package com.example.tema11
+package com.example.tema11.filter
 
 fun main() {
     var lista = listOf("Alba", "Lorena", "Oscar")

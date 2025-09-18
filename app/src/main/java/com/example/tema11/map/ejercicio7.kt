@@ -1,4 +1,4 @@
-package com.example.tema11
+package com.example.tema11.map
 
 fun main() {
     var lista = listOf("alba", "lorena", "oscar")

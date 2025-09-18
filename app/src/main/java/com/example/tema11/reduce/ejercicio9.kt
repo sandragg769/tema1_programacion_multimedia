@@ -1,4 +1,4 @@
-package com.example.tema11
+package com.example.tema11.reduce
 
 fun main() {
     val lista = listOf(1, 2, 3, 4)
