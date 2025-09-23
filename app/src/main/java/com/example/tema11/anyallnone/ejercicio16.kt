@@ -4,6 +4,9 @@ package com.example.tema11.anyallnone
 
 fun contrasenaNoEspacios(lista: List<String>): Boolean {
     return lista.none { it.any { caracter -> caracter.isWhitespace() } }
+    //OTRAS FORMAS DE HACERLO
+    //it.contains (Regex("\\s"))}
+    //it.any (Char::isWhitespace)}
 }
 
 

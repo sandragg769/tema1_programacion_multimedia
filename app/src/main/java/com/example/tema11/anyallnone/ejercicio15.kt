@@ -5,6 +5,8 @@ package com.example.tema11.anyallnone
 
 fun contrasenaSegura(lista: List<String>): Boolean {
     return lista.all { it.length >= 8 && it.count { caracter -> caracter.isDigit() } >= 2 }
+    //OTRA FORMA DE HACERLO
+    //en vez de caracter.isDigit(), it.count (Char::isDigit) >=2
 }
 
 fun main() {
