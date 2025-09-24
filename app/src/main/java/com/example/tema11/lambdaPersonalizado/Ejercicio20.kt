@@ -2,10 +2,12 @@ package com.example.tema11.lambdaPersonalizado
 //  Crea una función llamada filtrarPorRango que reciba una lista de números, un valor mínimo y un valor máximo.
 //  La función debe filtrar los números que estén entre minValue y maxValue (inclusive).
 
-fun filtrarPorRango (lista: List<Int>, minimo: Int, maximo:Int): List<Int> {
-    //lambda como una variable, le pasamos int y devuelve bool
+fun filtrarPorRango(lista: List<Int>, minimo: Int, maximo: Int): List<Int> {
+    //lambda como una variable, le pasamos int y devuelve bool para saber si está en el rango
     val rango: (Int) -> Boolean = { it in minimo..maximo }
-    return lista.filter { rango }
+    //al lambda hay que pasarle un Int asiq se pone como parametro it para que itere
+    //devolvemos el filter (q es una lista) de la lista de numeros xviendo con el lambda si esta en el rango o no
+    return lista.filter { rango(it) }
 }
 
 
