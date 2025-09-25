@@ -25,8 +25,15 @@ fun procesarPares(lista: List<Int>?): List<Int>? {
 
     //una vez verificado y operado devolvemos la lista iterando el lambda con cada numero de la lista
     return lista.map { operacion(it) }
+}
 
+//hacerlo con switch (when)
+fun procesarPares2(lista: List<Int>?): List<Int>? {
+    val paresaONo = lista?.all { it % 2 == 0 }
+    when {
+        lista.isNullOrEmpty()-> return null
 
+    }
 }
 
 fun main() {
