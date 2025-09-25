@@ -29,10 +29,12 @@ fun procesarPares(lista: List<Int>?): List<Int>? {
 
 //hacerlo con switch (when)
 fun procesarPares2(lista: List<Int>?): List<Int>? {
-    val paresaONo = lista?.all { it % 2 == 0 }
-    when {
-        lista.isNullOrEmpty()-> return null
-
+    return when {
+        lista.isNullOrEmpty() -> null
+        //poner la comprobacion como condicion y despues mapear
+        lista.all { it % 2 == 0 } -> lista.map { it * 4 }
+        //mapear es cambiar todos los de la lista
+        else -> lista.map { it * it * it }
     }
 }
 
