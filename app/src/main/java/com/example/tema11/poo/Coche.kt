@@ -1,9 +1,6 @@
 package com.example.tema11.poo
 
-import androidx.core.view.accessibility.AccessibilityViewCommand
-import java.time.Year
-
-class Coche(
+data class Coche(
     //poner el tipo de dato
     //poner ","
     //recomendable poner valores por defecto y ? para nullables

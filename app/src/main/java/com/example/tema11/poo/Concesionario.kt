@@ -10,4 +10,10 @@ class Concesionario(
     fun agregarCoches(coche: Coche) {
         listaCoches.add(coche)
     }
+
+    //Aprovecha las clases anteriores y añade un metodo a Concesionario
+    // llamado agruparPorMarca, que permita agrupar los coches por marca.
+    fun agruparPorMarca(): Map<String, List<Coche>> {
+        return listaCoches.groupBy { it.marca }
+    }
 }

@@ -13,12 +13,9 @@ fun procesarCadena(lista: List<String>, operacion: (String) -> (String)): List<S
 fun main() {
     //NO SE PUEDE USAR IT
     val calcularCubo: (Int) -> Int = { num -> num * num * num }
-
     val mayusAMinus: (String) -> String = { palabra -> palabra.lowercase() }
-
     println(calcularCubo(3))
     val listaMayus = listOf("SANDRA", "CARMEN", "ISA")
     val listaMinus = procesarCadena(listaMayus, mayusAMinus)
     println(listaMinus)
-
 }
